@@ -2106,6 +2106,20 @@ input, select, textarea {
 				display: block;
 				width: 100%;
 			}
+		
+		.image-container {
+			display: flex; /* Enables Flexbox */
+			justify-content: center; /* Centers images horizontally */
+			gap: 10px; /* Adds space between images */
+		}
+
+
+.image-container img {
+    width: 45%; /* Adjust image width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Optional: Add rounded corners */
+}
+
 
 /* Icon */
 
